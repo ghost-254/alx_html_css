@@ -1,0 +1,26 @@
+/* Adding CSS Styling to our webpage to have the desired positioning.*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+table, thead, tbody, tr, td, th {
+    border: 1px solid #2e0fe0;
+  }
